@@ -17,3 +17,24 @@ do{
     console.log(j)
     j++
 }while(j<10);
+
+//  from 1 to 100 give me first 5 common multiple values of 2 and 5
+let count=0
+for(let k= 1;k<=100;k++){
+
+    if(k%2==0 && k%5==0){
+        console.log(k)
+        count++
+        if(count==5){
+            break
+        }
+    }
+
+}
+// Extras
+let required = true
+while(required)
+{
+console.log(required)
+required= false
+}
